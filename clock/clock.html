@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIGITAL CLOCK</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body onload="setInterval(displayDateAndTime,1000)">
+    
+<!-- hours , mins , secs , date , month , year , day  -->
+<h1> DIGITAL CLOCK</h1>
+<div class="container">
+    <h1>
+        <span id="hours">00</span> :
+        <span id="min">00</span> :
+        <span id="sec">00</span>
+        <span id="am">AM</span>
+        <span id="pm">PM</span>
+    </h1>
+</div>
+
+<div class="container">
+    <h1>
+        <span id="date">00</span> -
+        <span id="month">00</span> -
+        <span id="year">0000</span>
+    </h1>
+    <h1 id="day">someday</h1>
+</div>
+
+
+
+
+
+
+
+
+
+<script src="./clock.js"></script> 
+</body>
+</html>

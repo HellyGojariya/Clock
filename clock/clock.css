@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: gray;
+   
+}
+
+h1{
+    text-align: center ;
+    color: greenyellow;
+ 
+
+}
+.container{
+   border: 5px solid black;
+   border-radius: 60px;
+   width: 70%; 
+   text-align: center;
+   margin: 50px auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
